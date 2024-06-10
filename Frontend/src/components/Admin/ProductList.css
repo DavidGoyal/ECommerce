@@ -41,8 +41,15 @@
     color: white;
 }
 
+
 @media screen and (max-width:1000px) {
     .productListTable div{
-        font: 300 4vw "Roboto";
+        font: 300 3vw "Roboto";
+    }
+}
+
+@media screen and (max-width:600px) {
+    .productListTable div{
+        font: 300 7vw "Roboto";
     }
 }

@@ -26,7 +26,7 @@ const MyOrders = () => {
         {field:"status",headerName:"Status",minWidth:150,flex:0.4,
             cellClassName:(params)=>
             {
-                return params.status==="Delivered"?"greenColor":"redColor";
+                return params.row.status==="Delivered"?"greenColor":"redColor";
             }
         },
         {field:"itemQty",headerName:"Item Qty",type:"number",minWidth:150,flex:0.3},

@@ -2,7 +2,6 @@
 import { useDispatch } from 'react-redux'
 import "./CartItemCard.css"
 import {Link} from "react-router-dom"
-import img1 from "../../assets/top5.jpg"
 import { removeFromCart } from '../../actions/cartActions'
 
 const CartItemCard = ({item}) => {

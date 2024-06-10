@@ -33,7 +33,7 @@ const UsersList = () => {
     const columns=[
         {field:"id",headerName:"User ID",minWidth:200,flex:0.8},
         {field:"email",headerName:"Email",minWidth:350,flex:1},
-        {field:"name",headerName:"Name",minWidth:150,flex:0.5},
+        {field:"name",headerName:"Name",minWidth:200,flex:0.5},
         {field:"role",headerName:"Role",minWidth:270,flex:0.3,
             cellClassName:(params)=>
                 {

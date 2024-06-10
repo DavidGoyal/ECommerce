@@ -1,5 +1,6 @@
 .orderDetailsPage{
     background-color: white;
+    min-height: 100vh;
 }
 
 .orderDetailsContainer{
@@ -71,7 +72,7 @@
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1050px) {
     .orderDetailsContainer>p{
         font: 400 6vw "Roboto";
     }

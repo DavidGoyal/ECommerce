@@ -34,6 +34,28 @@
     font: 100 0.8vmax "Roboto";
 }
 
+
+@media screen and (max-width:1050px) {
+    .CartItemCard{
+        margin-top: 2vmax;
+    }
+    .CartItemCard>img{
+        width: 10vmax;
+    }
+    .CartItemCard>div{
+        margin: 2vmax 2vmax;
+    }
+    .CartItemCard>div>a{
+        font: 300 2vmax cursive;
+    }
+    .CartItemCard>div>span{
+        font: 300 1.9vmax "Roboto";
+    }
+    .CartItemCard>div>p{
+        font: 100 1.8vmax "Roboto";
+    }
+}
+
 @media screen and (max-width:600px) {
     .CartItemCard{
         padding: 3vmax;

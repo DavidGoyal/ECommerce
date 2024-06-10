@@ -2,6 +2,7 @@ const app=require("./app")
 const connectDB=require("./config/database")
 const cloudinary=require("cloudinary")
 const dotenv=require("dotenv")
+const path=require("path")
 
 //Handling Uncaught Exception
 process.on("uncaughtException",(err)=>{
@@ -12,9 +13,9 @@ process.on("uncaughtException",(err)=>{
 })
 
 
+const pathFile=path.join(__dirname, "/config/config.env")
 
-console.log(__dirname);
-dotenv.config({path:"Backend/config/config.env"});
+dotenv.config({path:pathFile})
 
 
 connectDB();

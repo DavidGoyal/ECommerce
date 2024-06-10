@@ -8,7 +8,9 @@ const path=require("path")
 
 const midddleware=require("./middleware/error")
 
-dotenv.config({path:"Backend/config/config.env"})
+const pathFile=path.join(__dirname, "/config/config.env")
+
+dotenv.config({path:pathFile})
 
 const productRouter=require("./routes/productRoute")
 const userRouter=require("./routes/userRoute")

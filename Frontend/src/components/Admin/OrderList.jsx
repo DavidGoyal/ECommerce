@@ -32,10 +32,10 @@ const OrderList = () => {
 
     const columns=[
         {field:"id",headerName:"Order ID",minWidth:200,flex:0.5},
-        {field:"status",headerName:"Status",minWidth:150,flex:0.4,
+        {field:"status",headerName:"Status",minWidth:150,flex:0.5,
             cellClassName:(params)=>
             {
-                return params.status==="Delivered"?"greenColor":"redColor";
+                return params.row.status==="Delivered"?"greenColor":"redColor";
             }
         },
         {field:"itemQty",headerName:"Item Qty",type:"number",minWidth:150,flex:0.3},

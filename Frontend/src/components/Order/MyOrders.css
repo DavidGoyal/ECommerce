@@ -27,7 +27,7 @@
 }
 
 .myOrdersTable div{
-    font: 300 1vmax "Roboto";
+    font: 300 1.5vmax "Roboto";
     border: none;
 }
 
@@ -55,14 +55,17 @@
 @media screen and (max-width:600px) {
     .myOrdersPage{
         padding: 0;
-        height: 93vh;
+        height: 100vh;
+    }
+    .myOrdersTable div{
+        font: 300 5vw "Roboto";
     }
     #myOrdersHeading{
-        font: 400 2.2vmax "Roboto";
+        font: 400 2vmax "Roboto";
         padding: 4vw;
     }
     .MuiDataGrid-columnHeader{
-        padding: 20px !important;
+        padding: 15px !important;
     }
     .MuiDataGrid-columnHeader div{
         font: 500 5vw "Roboto" !important;

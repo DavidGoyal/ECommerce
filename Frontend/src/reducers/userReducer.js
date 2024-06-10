@@ -45,7 +45,7 @@ import {
 export const userReducer = createReducer(
     {
         userData:{},
-        loading:false,
+        loading:true,
         isAuthenticated:false,
         error:null
     },

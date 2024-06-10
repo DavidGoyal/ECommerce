@@ -80,6 +80,31 @@
         font-size: 6vw;
     }
     .paymentFormBtn{
+        font: 300 3vw "Roboto";
+        padding: 2vw;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .paymentForm{
+        width: 90%;
+    }
+    .paymentForm>p{
+        font: 400 8vw "Roboto";
+        padding: 4vw 0;
+        width: 60%;
+    }
+    .paymentForm>div{
+        margin: 10vw 0;
+    }
+    .paymentInput{
+        padding: 4vw 10vw;
+    }
+    .paymentForm>div>svg{
+        font-size: 6vw;
+    }
+    .paymentFormBtn{
         font: 300 4vw "Roboto";
         padding: 4vw;
     }
