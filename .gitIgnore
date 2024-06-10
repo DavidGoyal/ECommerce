@@ -1,24 +1,24 @@
 
 # dependencies
 /Backend/node_modules
-/Frontend/node_modules
+/frontend/node_modules
 
 # testing
-/Frontend/coverage
+/frontend/coverage
 
 # production
-/Frontend/build
-/Frontend/dist
-/Frontend/dist-ssr
-/Frontend/*.local
+/frontend/build
+/frontend/dist
+/frontend/dist-ssr
+/frontend/*.local
 
 # misc
 /Backend/config/config.env
-/Frontend/.DS_Store
-/Frontend/.env.local
-/Frontend/.env.development.local
-/Frontend/.env.test.local
-/Frontend/.env.production.local
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
 
 # Logs
 logs
